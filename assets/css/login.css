@@ -1,0 +1,44 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url(/assets/images/login_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 
+    cover 以短边为准
+    contain 以长边为准
+    */
+}
+
+.login-reg-box {
+    width: 400px;
+    height: 320px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.login-reg-box h4 {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg-wrap {
+    display: none;
+}

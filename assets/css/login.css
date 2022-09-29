@@ -42,3 +42,23 @@ body {
 .reg-wrap {
     display: none;
 }
+
+.layui-form {
+    padding: 0 30px;
+}
+
+.layui-form:nth-last-child(1) {
+    text-align: right;
+}
+
+.layui-form-item {
+    position: relative;
+}
+.layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.layui-input {
+    padding-left: 30px;
+}

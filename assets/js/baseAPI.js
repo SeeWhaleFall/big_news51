@@ -45,6 +45,7 @@ $.ajaxPrefilter(function(config){
       // 进次处的话，可以认为请求有误了
       localStorage.clear()
       location.href = '/login.html'
+      
     }
   }
   
